@@ -21,6 +21,22 @@ img {
     font-size: 37px;
     line-height: 80px;
 }
+.my_navbar .my_menu .my_list {
+    line-height: 80px;
+    margin-top: 3px;
+}
+.my_navbar .my_menu a {
+    color: black;
+    font-size: 18px;
+}
+.my_navbar .my_menu .my_btn {
+    color: #006AFF;
+    border: 1px solid #006AFF;
+    border-radius: 4px;
+}
+.my_navbar .my_menu i {
+    margin-left: 2px;
+}
 @media screen and (max-width: 780px) {
     .my_logo img {
         width: 250px;
