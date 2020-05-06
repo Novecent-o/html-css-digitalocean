@@ -29,7 +29,7 @@ img {
     color: black;
     font-size: 18px;
 }
-.my_navbar .my_menu .my_btn {
+.my_navbar .my_menu .my_btn_sign {
     color: #006AFF;
     border: 1px solid #006AFF;
     border-radius: 4px;
@@ -54,7 +54,42 @@ img {
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    padding: 20px 10px;
+    padding: 22px 18px;
+}
+.form_jumbo .my_form h3 {
+    font-size: 27px;
+    margin-bottom: 0;
+}
+.form_jumbo .my_form span {
+    display: inline-block;
+    color: #006AFF;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.form-group .my_mail {
+    padding: 22px 8px;
+}
+.my_btn_account {
+    background-color: #579AFF;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.my_btn_google {
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #626262;
+}
+.form_jumbo p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.form_jumbo p a {
+    text-decoration-line: revert;
+    color: #006AFF;
 }
 @media screen and (max-width: 780px) {
     .my_logo img {
