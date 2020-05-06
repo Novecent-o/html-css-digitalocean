@@ -1,0 +1,32 @@
+/* Regole Generali */
+body {
+    margin-top: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+/* Fine Regole Generali */
+
+/* INIZIO HEADER */
+/* .my_row {
+    background-color: green;
+} */
+.my_navbar .my_logo {
+    line-height: 80px;
+}
+.my_navbar .my_burger i {
+    color: #3A8AFF;
+    font-size: 37px;
+    line-height: 80px;
+}
+@media screen and (max-width: 780px) {
+    .my_logo img {
+        width: 250px;
+    }
+    .my_navbar .my_burger i {
+        font-size: 25px;
+    }
+}
+/* FINE HEADER */
