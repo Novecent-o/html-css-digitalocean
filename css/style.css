@@ -138,8 +138,11 @@ img {
     font-size: 23px;
     color: #5c6a88;
 }
+.my_info .my_row {
+    padding: 47px 0 0 0;
+}
 .my_info_list {
-    padding: 20px 88px;
+    padding: 0 88px;
 }
 .my_list_general {
     border-left: 2px solid #cccccc;
@@ -154,9 +157,16 @@ img {
 }
 .my_info_general img {
     height: 41px;
+    width: auto;
+    text-align: left;
+    margin-bottom: 14px;
+}
+.my_info_general h5 {
+    font-size: 20px;
+    color: #031c4e;
 }
 .my_info_general p {
-    font-size: 17px;
+    font-size: 16px;
     color: #5c6a88;
 }
 @media screen and (max-width: 991px) {
