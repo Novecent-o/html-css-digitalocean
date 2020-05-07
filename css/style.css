@@ -92,7 +92,7 @@ img {
     font-size: 12px;
     margin-top: 10px;
 }
-.form_jumbo p a {
+.form_jumbo p > a {
     text-decoration-line: revert;
     color: #006AFF;
 }
@@ -241,5 +241,21 @@ img {
 .my_service .my_third_cell a {
     color: #00d7d2;
 }
+.table > tbody > tr.my_first_row > td {
+    border-top: none;
+}
 /* Fine Customer */
+/* Inizio Rockerbox */
+
+.my_rocker_logo {
+    display: inline-block;
+    width: 54%;
+}
+.my_rocker_img {
+    height: 400px;
+    background-color: white;
+    padding: 75px 0;
+}
+/* Fine Rockerbox */
+
 /* FINE MAIN */
