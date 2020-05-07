@@ -10,11 +10,11 @@ img {
 /* Fine Regole Generali */
 
 /* INIZIO HEADER */
-/* .my_row {
-    background-color: green;
-} */
 .my_navbar .my_logo {
-    line-height: 80px;
+    /* line-height: 80px; */
+}
+.my_logo img {
+    width: 250px;
 }
 .my_navbar .my_burger i {
     color: #3A8AFF;
@@ -37,6 +37,11 @@ img {
 .my_navbar .my_menu i {
     margin-left: 2px;
 }
+
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+/* Inizio Jumbotron */
 #my_jumbo {
     background-image: url("../img/bg-home-1-d54581d7.jpg");
     background-size: cover;
@@ -91,12 +96,30 @@ img {
     text-decoration-line: revert;
     color: #006AFF;
 }
-@media screen and (max-width: 780px) {
-    .my_logo img {
-        width: 250px;
-    }
-    .my_navbar .my_burger i {
-        font-size: 25px;
+/* Fine Jumbotron */
+/* Inizio Partnership  */
+#my_partner {
+    background-color: #f3f5f9;
+    padding: 50px 0;
+    text-align: center;
+}
+.my_brand h4 {
+    text-transform: uppercase;
+    color: #6f7b97;
+    font-size: 17px;
+}
+.my_brand li {
+    width: calc(98% / 6);
+}
+.my_brand a {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+@media screen and (max-width: 991px) {
+    .my_brand li {
+        width: 47%
     }
 }
-/* FINE HEADER */
+/* Fine Partnership  */
+/* FINE MAIN */
