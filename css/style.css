@@ -11,14 +11,14 @@ img {
 
 /* INIZIO HEADER */
 .my_navbar .my_logo {
-    /* line-height: 80px; */
+    line-height: 80px;
 }
 .my_logo img {
     width: 250px;
 }
 .my_navbar .my_burger i {
     color: #3A8AFF;
-    font-size: 37px;
+    font-size: 29px;
     line-height: 80px;
 }
 .my_navbar .my_menu .my_list {
@@ -114,7 +114,10 @@ img {
 .my_brand a {
     font-size: 17px;
     margin-right: 10px;
-    text-decoration: none;
+    color: #006aff;
+}
+.my_brand i {
+    color: #006aff;
 }
 @media screen and (max-width: 991px) {
     .my_brand li {
@@ -122,4 +125,40 @@ img {
     }
 }
 /* Fine Partnership  */
+/* Inizio Info Tecniche */
+.my_info {
+    text-align: center;
+    padding: 67px 0;
+}
+.my_info h3 {
+    font-size: 39px;
+    color: #031c4e;
+}
+.my_info p {
+    font-size: 23px;
+    color: #5c6a88;
+}
+.my_info_list {
+    padding: 20px 88px;
+}
+.my_list_general {
+    border-left: 2px solid #cccccc;
+}
+.my_list_general li {
+    margin: 25px 0 25px 20px;
+    text-align: left;
+}
+.my_list_general li a {
+    color: #75809a;
+    font-size: 21px;
+}
+.my_info_general img {
+    height: 30px;
+}
+@media screen and (max-width: 991px) {
+    .my_info_list {
+        padding: 20px 0;
+    }
+}
+/* Fine Info Tecniche */
 /* FINE MAIN */
