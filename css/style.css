@@ -175,4 +175,71 @@ img {
     }
 }
 /* Fine Info Tecniche */
+/* Inizio Developer */
+.my_dev {
+    padding: 67px 0;
+    text-align: center;
+    background-color: #f3f5f9;
+}
+.my_dev h3 {
+    font-size: 39px;
+    color: #031c4e;
+}
+.my_dev .container p {
+    font-size: 23px;
+    color: #5c6a88;
+}
+.my_dev_img {
+    padding: 67px 0 20px 0;
+    width: 100%;
+}
+.my_dev_img img {
+    width: 54%;
+}
+.my_dev_img i {
+    font-size: 35px;
+    color: #031c4e;
+    margin: 0 10px;
+}
+.my_dev p {
+    color: #031c4e;
+    font-size: 16px;
+}
+.my_dev li {
+    font-size: 12px;
+    color: #006aff;
+    padding: 0 2px;
+}
+@media screen and (max-width: 991px) {
+    .my_dev .my_dev_img i {
+        display: none;
+    }
+}
+/* Fine Developer */
+/* Inizio Customer */
+#customer {
+    background-color: #0025a0;
+    text-align: center;
+}
+.my_service {
+    padding: 67px 0;
+}
+.my_service h3 {
+    font-size: 39px;
+    color: white;
+    margin-bottom: 27px;
+}
+.my_service .my_first_cell {
+    color: white;
+}
+.my_service .my_second_cell {
+    color: #bbc7e8;
+}
+.my_service .my_third_cell {
+    text-align: right;
+}
+.my_service .my_third_cell a {
+    color: #00d7d2;
+}
+/* Fine Customer */
 /* FINE MAIN */
