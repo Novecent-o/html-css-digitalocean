@@ -190,16 +190,25 @@ img {
     color: #5c6a88;
 }
 .my_dev_img {
+    position: relative;
     padding: 67px 0 20px 0;
     width: 100%;
 }
 .my_dev_img img {
     width: 54%;
 }
-.my_dev_img i {
+.my_dev_img .arrow {
     font-size: 35px;
     color: #031c4e;
-    margin: 0 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.my_dev_img .fa-angle-left {
+    left: 20%;
+}
+.my_dev_img .fa-angle-right {
+    right: 20%;
 }
 .my_dev p {
     color: #031c4e;
@@ -209,11 +218,6 @@ img {
     font-size: 12px;
     color: #006aff;
     padding: 0 2px;
-}
-@media screen and (max-width: 991px) {
-    .my_dev .my_dev_img i {
-        display: none;
-    }
 }
 /* Fine Developer */
 /* Inizio Customer */
@@ -282,5 +286,24 @@ img {
     }
 }
 /* Fine Rockerbox */
-
+/* Inizio Account */
+.my_account {
+    background-color: #0031ab;
+    padding: 64px 0;
+}
+.my_account h3 {
+    color: white;
+    font-size: 39px;
+    margin-bottom: 30px;
+}
+.my_account .my_btn_account {
+    color: #006aff;
+    background-color: white;
+}
+/* Fine Account */
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+
+/* FINE FOOTER */
