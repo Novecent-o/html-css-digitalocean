@@ -256,6 +256,31 @@ img {
     background-color: white;
     padding: 75px 0;
 }
+.my_rocker_img img {
+    width: 330px;
+}
+.my_rocker_img .my_address_1 {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+.my_rocker_img .my_address_2 {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.my_rocker_img a {
+    color: #006aff;
+    font-size: 17px;
+}
+@media screen and (max-width: 991px) {
+    .my_rocker_img {
+        padding-top: 40px;
+    }
+    .my_rocker_img img {
+        width: 100%;
+    }
+}
 /* Fine Rockerbox */
 
 /* FINE MAIN */
