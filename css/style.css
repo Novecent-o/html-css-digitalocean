@@ -304,6 +304,40 @@ img {
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
-
-
+.container_footer {
+  background-color: #031c4e;
+  color: white;
+  padding: 67px 0;
+}
+.container_footer .info_ocean {
+  color: #7a859d;
+}
+.info_ocean p,
+.info_ocean span {
+  font-size: 16px;
+  margin: 0;
+}
+.info_ocean .ul_social {
+  margin-top: 15px;
+}
+.info_ocean .ul_social a {
+  color: #7a859d;
+  font-size: 25px;
+}
+.logo_footer {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.container_footer .ul_footer {
+  margin-bottom: 23px;
+}
+.container_footer .ul_footer li {
+  margin: 11px 0;
+}
+.container_footer .first_list {
+  font-size: 17px;
+}
+.container_footer ul a {
+  color: white;
+}
 /* FINE FOOTER */
