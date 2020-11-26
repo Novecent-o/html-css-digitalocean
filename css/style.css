@@ -1,6 +1,10 @@
 /* Regole Generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
-    margin-top: -20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,6 +19,7 @@ img {
 }
 .my_logo img {
     width: 250px;
+    vertical-align: middle;
 }
 .my_navbar .my_burger i {
     color: #3A8AFF;
